@@ -1,2 +1,3 @@
 # meu-portifolio
- portifolio
+ portifolio-HTML+CSS
+ portifolio para tela de smartphone!
