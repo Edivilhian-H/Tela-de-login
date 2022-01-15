@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atro</title>
+</head>
+
+<body>
+    <div id="div-1">
+
+        <img src="./ui-logo.png" />
+    
+        <input id=" input-1" placeholder="Digite seu E-mail..." />
+        <input id="input-2" type="password" placeholder="Digite sua senhar..." />
+        <button id="bt-1"> continuar </button>
+        <button id="bt-2">conecte com Facebook</button>
+
+        <div id="div-2">
+
+            <a>saber mas...</a>
+            <a>criar nova conta</a>
+
+        </div>
+
+    </div>
+</body>
+
+<STyle>
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+    }
+
+    #div-1 {
+        height: 100vh;
+        width: 100vw;
+        background: url("./image.png");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    img {
+        width: 50%px;
+        margin-top: 167px;
+    }
+
+    input {
+        height: 40px;
+        width: 73%;
+        border-radius: 13px;
+        border: none;
+        background-color: #140f26;
+        opacity: 0.5;
+        margin-top: 140px;
+        color: white;
+        padding-left: 15px;
+    }
+
+    #input-2 {
+        margin-top: 10px;
+    }
+
+    #bt-1 {
+        height: 35px;
+
+        width: 60%;
+        border-radius: 33px;
+        background-color: #6454ff;
+        color: white;
+        text-transform: uppercase;
+        border: none;
+        margin-top: 10px;
+        background-image: linear-gradient(#6454ff 50%, #3481ca)
+    }
+
+    #bt-1:active {
+        box-shadow: 0 2px black;
+        transform: translate(3px);
+    }
+
+    #bt-2 {
+        height: 35px;
+        width: 60%;
+        border-radius: 33px;
+        color: white;
+        background-color: black;
+        opacity: 0.4;
+        margin-top: 10px;
+        border: none;
+        text-transform: uppercase;
+    }
+
+    #bt-2:active {
+        box-shadow: 0 2px black;
+        background-color: white;
+        color: black;
+
+    }
+
+    #div-2 {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        flex-direction: row;
+        margin-top: 90px;
+        color: white;
+    }
+</STyle>
+
+</html>
